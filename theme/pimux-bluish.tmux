@@ -59,9 +59,8 @@ set -g status-position top
 set -g status-bg $BACKGROUND
 set -g status-fg $FOREGROUND
 
-# Status Interval - big
+# Status Interval
 set -g status-interval 60
-set -g status-utf8 on
 
 # Status contents
 set -g status-left ' π '
