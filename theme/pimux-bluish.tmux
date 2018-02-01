@@ -73,3 +73,5 @@ set -g status-right '| #S:#I.#P '
 set -g message-bg $BACKGROUND
 set -g message-fg $HIGHLIGHT
 set -g message-attr bright
+
+# vim: set syntax=tmux:
