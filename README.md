@@ -14,6 +14,6 @@ set -g @plugin 'ndyakov/pimux'
 
 2. Install -> `prefix + I`
 
-3. Preview
+## Preview
 
 ![preview](preview.png)
