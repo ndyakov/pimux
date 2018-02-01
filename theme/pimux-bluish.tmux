@@ -14,7 +14,7 @@ set -g pane-active-border-bg default
 set -g pane-active-border-fg $HIGHLIGHT
 
 set -g display-panes-time 1000
-set -g display-panes-colour default
+set -g display-panes-colour $FOREGROUND
 set -g display-panes-active-colour $HIGHLIGHT
 
 # Clock
