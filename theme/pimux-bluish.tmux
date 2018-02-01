@@ -60,7 +60,10 @@ set -g status-bg $BACKGROUND
 set -g status-fg $FOREGROUND
 
 # Status Interval
-set -g status-interval 60
+# But there is a strange bug that freezes osx
+# https://github.com/tmux/tmux/issues/108
+# set to 0
+set -g status-interval 0
 
 # Status contents
 set -g status-left ' π '
