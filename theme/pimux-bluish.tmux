@@ -52,7 +52,7 @@ set -g status-interval 0
 
 # Status contents
 set -g status-left ' π '
-set -g status-right '| #S:#I.#P '
+set -g status-right '%W/52 | #S:#I.#P '
 
 # Message
 set -g message-style fg=$HIGHLIGHT,bg=$BACKGROUND,bright
